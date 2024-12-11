@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign Up</title>
+   <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+   <div class="w-[full] h-screen ">
+      <h2 class="text-emerald-500 font-bold text-4xl p-4">Modal SignUp Form</h2>
+      <button class="text-emerald-50 bg-emerald-300 rounded p-3 ml-4 hover:bg-emerald-500 cursor-pointer">Sign Up</button>
+      <div>
+         <span></span>
+         <form action="" class="items-center box-border min-h-full min-w-96 p-4 border-3 justify-between">
+            <div class="pt-5">
+               <h2 class="font-bold text-3xl pt-5">Sign Up</h2>
+               <p class="pt-3 text-lg font-normal mb-3">Please fill in this form to create an account.</p>
+               <hr class="mb-4">
+               <label for="email" class="text-xl font-medium py-4 mb-6">Email</label> <br>
+               <input type="email" placeholder="example@gmail.com" name="mail"  required
+               class="block w-[35%] px-3 py-2  border border-slate-300 text-sm shadow-sm placeholder-slate-600 bg-gray-300
+               focus:outline-none focus:ring-1">
+               <p class="mt-2 text-emerald-600 text-sm mb-4">Please provide a valid email address</p>
+               <label for="password" class="text-xl font-medium py-6 mb-4">Password</label> <br>
+               <input type="password" placeholder="Enter Password" name="pswd" required class="block w-[35%] px-3 py-2  mb-4 border border-slate-300 text-sm shadow-sm placeholder-slate-600 bg-gray-300
+               focus:outline-none focus:ring-1">
+               <label for="pswd-repeat" class="text-xl font-medium py-6 pb-3">Repeat Password</label> <br>
+               <input type="password" placeholder="Repeat Password" name="pswd-repeat" required
+               class="block w-[35%] px-3 py-2 mb-4 border border-slate-300 text-sm shadow-sm placeholder-slate-600 bg-gray-300
+               focus:outline-none focus:ring-1">
+               <label class="">
+               <input type="checkbox" checked="checked" name="remember" class="mt-4 py-2 mb-6">Remember Me</label>
+               <p>By Creating an account you agree to our <a href="#" class="text-blue-600 underline py-4">Terms & Privacy</a></p>
+              <div>
+               <button class="bg-red-600 p-3 rounded text-white mt-4 py-4 px-5 w-auto">Cancel</button>
+               <button class="text-white mt-4 py-4 px-5 rounded bg-green-600 w-auto">Sign Up</button>
+              </div>
+            </div>
+         </form>
+      </div>
+   </div>
+</body>
+</html>
